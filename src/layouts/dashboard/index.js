@@ -3,9 +3,8 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 // @mui
 import { styled } from "@mui/material/styles";
-import { Box, Container } from "@mui/material";
+import { Box } from "@mui/material";
 // hooks
-import useSettings from "../../hooks/useSettings";
 import useResponsive from "../../hooks/useResponsive";
 import useCollapseDrawer from "../../hooks/useCollapseDrawer";
 // config
@@ -13,7 +12,6 @@ import { HEADER, NAVBAR } from "../../config";
 //
 import DashboardHeader from "./header";
 import NavbarVertical from "./navbar/NavbarVertical";
-import NavbarHorizontal from "./navbar/NavbarHorizontal";
 
 // ----------------------------------------------------------------------
 

@@ -1,9 +1,8 @@
 import PropTypes from "prop-types";
 // @mui
 import { styled } from "@mui/material/styles";
-import { Box, Link, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 // hooks
-import useAuth from "../../../hooks/useAuth";
 // components
 import MyAvatar from "../../../components/MyAvatar";
 import profile from "../../../assets/profile/profile.jpg";
@@ -30,8 +29,6 @@ NavbarAccount.propTypes = {
 };
 
 export default function NavbarAccount({ isCollapse }) {
-  const { user } = useAuth();
-
   return (
     <RootStyle
       sx={{

@@ -2,8 +2,6 @@
 import PropTypes from "prop-types";
 import DashboardLayout from "./dashboard";
 
-// import LogoOnlyLayout from './LogoOnlyLayout';
-
 // ----------------------------------------------------------------------
 
 Layout.propTypes = {
