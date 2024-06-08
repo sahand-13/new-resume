@@ -1,8 +1,7 @@
 "use client";
 import PropTypes from "prop-types";
 import DashboardLayout from "./dashboard";
-import { Container } from "@mui/material";
-import Particle from "../components/Particles/Particle";
+
 // import LogoOnlyLayout from './LogoOnlyLayout';
 
 // ----------------------------------------------------------------------

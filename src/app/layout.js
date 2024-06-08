@@ -7,8 +7,6 @@ import ThemeProvider from "../theme";
 import ThemeColorPresets from "../components/ThemeColorPresets";
 import Layout from "../layouts";
 import { CollapseDrawerProvider } from "../contexts/CollapseDrawerContext";
-import favicon from "./favicon.ico";
-import { Container } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
 
