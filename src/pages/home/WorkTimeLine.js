@@ -28,16 +28,17 @@ import Iconify from "../../components/Iconify";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useEffect, useRef } from "react";
 
 export default function WorkTimeLine() {
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.registerPlugin(useGSAP);
   const theme = useTheme();
   const myRef = useRef(null);
   const ImageRef = useRef([]);
-  useGSAP();
+  if (typeof window !== "undefined") {
+    gsap.registerPlugin(useGSAP);
+    gsap.registerPlugin(ScrollTrigger);
+  }
   useEffect(() => {
     ImageRef.current.forEach((item) => {
       const reaveal = gsap.timeline({

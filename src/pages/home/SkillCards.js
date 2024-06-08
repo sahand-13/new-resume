@@ -12,7 +12,7 @@ import {
 import Iconify from "../../components/Iconify";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import useArrayRef from "../../hooks/useArrayRef";
 
@@ -51,8 +51,11 @@ export default function SkillCards() {
   const theme = useTheme();
   const isLight = theme.palette.mode === "light";
   const ImageRef = useRef([]);
-  gsap.registerPlugin(ScrollTrigger);
-  gsap.registerPlugin(useGSAP);
+  if (typeof window !== "undefined") {
+    gsap.registerPlugin(useGSAP);
+    gsap.registerPlugin(ScrollTrigger);
+  }
+
   useEffect(() => {
     ImageRef.current.forEach((item) => {
       const reaveal = gsap.timeline({
