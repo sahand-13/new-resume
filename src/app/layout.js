@@ -20,6 +20,12 @@ export default function RootLayout({ children }) {
   const settings = getSettings(cookieStore);
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="ow8U0zkxs8wQml448xyw1uZYG42mczEMzCLVIOmdWYM"
+        />
+      </head>
       <body className={inter.className}>
         <AppRouterCacheProvider>
           <CollapseDrawerProvider>
