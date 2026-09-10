@@ -10,7 +10,8 @@ import "./persian-font.css";
 
 export const metadata = {
   title: "Sahand Golkar | Full-Stack Developer",
-  description: "Sahand Golkar - Full-Stack Developer specializing in .NET, React, scalable systems, and DevOps.",
+  description:
+    "Sahand Golkar - Full-Stack Developer specializing in .NET, React, scalable systems, and DevOps.",
 };
 
 export default function RootLayout({ children }) {
