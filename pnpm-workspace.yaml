@@ -1,5 +1,6 @@
 allowBuilds:
   '@tsparticles/engine': set this to true or false
   core-js: set this to true or false
+  pnpm: set this to true or false
   react-particles: set this to true or false
   tsparticles-engine: set this to true or false
