@@ -1,0 +1,48 @@
+export const resumeTranslations = {
+  en: {
+    skip: "Skip to content", menu: "Menu", close: "Close", engineer: "SOFTWARE ENGINEER", name: "Sahand Golkar", role: "Full-Stack Developer", location: "Karaj, Iran", explore: "EXPLORE", chooseLanguage: "Website language", threeLabel: "Interactive 3D geometric sculpture", projectsWatermark: "PROJECTS",
+    nav: ["Introduction", "How I build", "Project experience", "Technical skills", "Get in touch"],
+    focus: "CORE FOCUS", focusLines: [".NET & React", "Secure applications.", "Connected systems."], languages: "LANGUAGES", persian: "Persian", english: "English", native: "NATIVE", professional: "PROFESSIONAL", proficiency: "Professional working proficiency", talk: "Let’s talk", built: "Built with care. By Sahand.",
+    available: "AVAILABLE FOR REMOTE OPPORTUNITIES", heroStart: "Full-stack engineering for products that need to", heroEm: "last.", lead: "I’m Sahand Golkar, a Full-Stack Developer with four years of experience building secure, scalable applications with .NET and React.", conversation: "Start a conversation", viewWork: "View project experience",
+    processLabel: "Engineering process", wordmark: "DESIGN · BUILD · DELIVER ·", scroll: "SCROLL TO EXPLORE",
+    chapters: [
+      ["UNDERSTAND", "Map the system before writing the solution.", "I turn business rules, permissions, data flows, and operational constraints into a clear technical model."],
+      ["ENGINEER", "Build the foundation for change.", "Reusable services, clean boundaries, secure access, and responsive interfaces make the product easier to extend."],
+      ["OPERATE", "Ship with production in mind.", "Containerized delivery, observable services, and automated pipelines keep the system dependable after launch."],
+    ],
+    profileLabel: "01 · PROFILE", profileKicker: "ENGINEERING PROFILE", profileStart: "I build the systems behind", profileEm: "confident products.", profileCode: "BACKEND × FRONTEND × PLATFORM", short: "THE SHORT VERSION", profileCopy: "I translate complex product requirements into secure backend architecture and clear, responsive interfaces—then build the delivery foundations that keep everything reliable.",
+    metrics: [["01 / EXPERIENCE", "4+", "Years shipping production software"], ["02 / CORE", ".NET", "Scalable APIs and system architecture"], ["03 / PRODUCT", "React", "Fast, accessible user experiences"]],
+    workLabel: "02 · WORK", workKicker: "SELECTED PROJECT EXPERIENCE", workStart: "Built for work", workEm: "that matters.",
+    projects: [
+      ["Authorization platform", "Implemented OpenID Connect Authorization Code Flow and a dynamic organizational role, group, and permission model across .NET APIs and React interfaces.", ["OpenID Connect", "OAuth 2.0", "RBAC", ".NET + React"]],
+      ["Configurable workflow engine", "Built a schema-driven form system that renders fields from backend data, including permission-aware visibility and edit controls at field level.", ["Dynamic forms", "Workflow", "React", "Authorization"]],
+      ["Connected application services", "Developed gRPC microservices with Consul discovery and real-time chat with SignalR, WebSocket, and JWT authentication.", ["gRPC", "Consul", "SignalR", "JWT"]],
+    ],
+    skillsLabel: "03 · CAPABILITIES", skillsKicker: "CAPABILITIES", skillsStart: "Technical range.", skillsEm: "Product focus.",
+    skills: [["Backend", "C#, ASP.NET Core, EF Core, gRPC, SignalR, Redis"], ["Frontend", "React, Next.js, TypeScript, Redux, Recoil"], ["Architecture", "Clean Architecture, CQRS, SOLID, Microservices"], ["Delivery", "Docker, GitLab CI/CD, Grafana, Loki, Prometheus"], ["Data", "SQL Server, PostgreSQL, Prisma ORM, S3 Object Storage"], ["Security", "OpenID Connect, OAuth 2.0, JWT, dynamic authorization"]],
+    contactLabel: "04 · CONTACT", contactKicker: "LET’S CONNECT", contactStart: "Have a product", contactEnd: "to build?",
+  },
+  fa: {
+    skip: "رفتن به محتوای اصلی", menu: "منو", close: "بستن", engineer: "مهندس نرم‌افزار", name: "سهند گلکار", role: "توسعه‌دهنده فول‌استک", location: "کرج، ایران", explore: "بخش‌ها", chooseLanguage: "انتخاب زبان وب‌سایت", threeLabel: "مدل هندسی سه‌بعدی تعاملی", projectsWatermark: "پروژه‌ها",
+    nav: ["معرفی", "روش کار من", "تجربه پروژه‌ها", "مهارت‌های فنی", "ارتباط با من"],
+    focus: "تمرکز اصلی", focusLines: ["NET. و React", "نرم‌افزارهای امن", "سیستم‌های یکپارچه"], languages: "زبان‌ها", persian: "فارسی", english: "انگلیسی", native: "زبان مادری", professional: "حرفه‌ای", proficiency: "تسلط حرفه‌ای در محیط کار", talk: "گفت‌وگو کنیم", built: "با دقت ساخته شده؛ توسط سهند.",
+    available: "آماده همکاری به‌صورت ریموت", heroStart: "مهندسی فول‌استک برای محصولاتی که باید", heroEm: "ماندگار باشند.", lead: "من سهند گلکار، توسعه‌دهنده فول‌استک با چهار سال تجربه در ساخت نرم‌افزارهای امن و مقیاس‌پذیر با NET. و React هستم.", conversation: "شروع گفت‌وگو", viewWork: "مشاهده تجربه پروژه‌ها",
+    processLabel: "فرایند مهندسی", wordmark: "طراحی · ساخت · تحویل ·", scroll: "برای ادامه اسکرول کنید",
+    chapters: [
+      ["درک مسئله", "پیش از نوشتن راه‌حل، سیستم را ترسیم می‌کنم.", "قواعد کسب‌وکار، دسترسی‌ها، جریان داده و محدودیت‌های عملیاتی را به یک مدل فنی روشن تبدیل می‌کنم."],
+      ["مهندسی", "زیرساختی می‌سازم که آماده تغییر باشد.", "سرویس‌های قابل استفاده مجدد، مرزهای روشن، دسترسی امن و رابط‌های واکنش‌گرا توسعه محصول را آسان‌تر می‌کنند."],
+      ["بهره‌برداری", "با نگاه به محیط واقعی منتشر می‌کنم.", "تحویل کانتینری، سرویس‌های قابل پایش و خط انتشار خودکار، پایداری سیستم پس از عرضه را حفظ می‌کنند."],
+    ],
+    profileLabel: "۰۱ · پروفایل", profileKicker: "پروفایل مهندسی", profileStart: "سیستم‌هایی می‌سازم که پشتوانه", profileEm: "محصولات قابل اعتمادند.", profileCode: "بک‌اند × فرانت‌اند × پلتفرم", short: "خلاصه حرفه‌ای", profileCopy: "نیازمندی‌های پیچیده محصول را به معماری بک‌اند امن و رابط‌های کاربری روشن و واکنش‌گرا تبدیل می‌کنم؛ سپس زیرساخت تحویلی را می‌سازم که همه‌چیز را پایدار نگه دارد.",
+    metrics: [["۰۱ / تجربه", "+۴", "سال تجربه تولید نرم‌افزار"], ["۰۲ / تخصص اصلی", "NET.", "APIهای مقیاس‌پذیر و معماری سیستم"], ["۰۳ / محصول", "React", "تجربه‌های کاربری سریع و دسترس‌پذیر"]],
+    workLabel: "۰۲ · پروژه‌ها", workKicker: "تجربه پروژه‌های منتخب", workStart: "ساخته‌شده برای کاری", workEm: "که اهمیت دارد.",
+    projects: [
+      ["پلتفرم احراز و تخصیص دسترسی", "پیاده‌سازی جریان Authorization Code در OpenID Connect و مدل پویای نقش، گروه و دسترسی سازمانی در APIهای NET. و رابط‌های React.", ["OpenID Connect", "OAuth 2.0", "RBAC", ".NET + React"]],
+      ["موتور گردش‌کار قابل پیکربندی", "ساخت سامانه فرم مبتنی بر اسکیما که فیلدها را از داده بک‌اند تولید می‌کند و نمایش و ویرایش هر فیلد را بر اساس دسترسی کنترل می‌کند.", ["فرم پویا", "گردش‌کار", "React", "دسترسی"]],
+      ["سرویس‌های یکپارچه نرم‌افزار", "توسعه میکروسرویس‌های gRPC با کشف سرویس Consul و گفت‌وگوی بلادرنگ با SignalR، WebSocket و احراز هویت JWT.", ["gRPC", "Consul", "SignalR", "JWT"]],
+    ],
+    skillsLabel: "۰۳ · توانمندی‌ها", skillsKicker: "توانمندی‌ها", skillsStart: "گستره فنی؛", skillsEm: "تمرکز بر محصول.",
+    skills: [["بک‌اند", "C#, ASP.NET Core, EF Core, gRPC, SignalR, Redis"], ["فرانت‌اند", "React, Next.js, TypeScript, Redux, Recoil"], ["معماری", "Clean Architecture, CQRS, SOLID, Microservices"], ["تحویل و عملیات", "Docker, GitLab CI/CD, Grafana, Loki, Prometheus"], ["داده", "SQL Server, PostgreSQL, Prisma ORM, S3 Object Storage"], ["امنیت", "OpenID Connect, OAuth 2.0, JWT، دسترسی پویا"]],
+    contactLabel: "۰۴ · ارتباط", contactKicker: "در ارتباط باشیم", contactStart: "محصولی دارید", contactEnd: "که باید ساخته شود؟",
+  },
+};

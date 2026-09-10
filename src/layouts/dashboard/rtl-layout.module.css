@@ -1,0 +1,8 @@
+.contentRight{margin-left:0!important;margin-right:270px}
+.sidebarRight{inset:0 0 0 auto!important;text-align:right}
+.sidebarRight nav a{direction:rtl}
+.sidebarRight nav a>span{margin-right:0;margin-left:13px}
+.sidebarRight nav i{margin-left:0;margin-right:auto;transform:scaleX(-1)}
+.sidebarRight :global(img){margin-left:auto}
+@media(max-width:1000px){.contentRight{margin-right:0!important}}
+@media print{.contentRight{margin-right:0!important}}

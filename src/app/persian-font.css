@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "IRANYekan";
+  src: url("../assets/fonts/iranyekan/iranyekanweblight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("../assets/fonts/iranyekan/iranyekanwebregular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("../assets/fonts/iranyekan/iranyekanwebbold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Include the portaled mobile drawer and controls with their own font rules. */
+html[lang="fa"] body,
+html[lang="fa"] body :where(div, section, article, aside, nav, header, main, a, button, input, textarea, select, label, span, small, strong, b, i, em, p, h1, h2, h3, h4),
+body [lang="fa"] {
+  font-family: "IRANYekan", Tahoma, sans-serif !important;
+  letter-spacing: normal !important;
+}
+
+/* Persian joins and vertical marks need more space than the Latin display type. */
+html[lang="fa"] body :where(h1, h2, h3, h4) {
+  line-height: 1.45 !important;
+}
+
+html[lang="fa"] body em {
+  font-style: normal;
+}

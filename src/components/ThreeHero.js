@@ -27,4 +27,4 @@ function Dust() {
   return <points ref={points}><bufferGeometry><bufferAttribute attach="attributes-position" args={[positions, 3]} /></bufferGeometry><pointsMaterial color="#c5a05a" size={.024} transparent opacity={.55} sizeAttenuation /></points>;
 }
 
-export default function ThreeHero() { return <Canvas dpr={[1, 1.5]} camera={{ position: [0, 0, 6.4], fov: 38 }} gl={{ alpha: true, antialias: true, powerPreference: "high-performance" }} aria-label="Interactive 3D geometric sculpture"><Sculpture /><Dust /></Canvas>; }
+export default function ThreeHero({ label = "Interactive 3D geometric sculpture" }) { return <Canvas dpr={[1, 1.5]} camera={{ position: [0, 0, 6.4], fov: 38 }} gl={{ alpha: true, antialias: true, powerPreference: "high-performance" }} aria-label={label}><Sculpture /><Dust /></Canvas>; }

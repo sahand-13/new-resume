@@ -1,0 +1,2 @@
+.progress{left:0!important;right:270px!important;transform-origin:right!important}
+@media(max-width:1000px){.progress{left:0!important;right:0!important}}

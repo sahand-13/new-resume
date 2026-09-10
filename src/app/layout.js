@@ -6,6 +6,7 @@ import ThemeProvider from "../theme";
 import ThemeColorPresets from "../components/ThemeColorPresets";
 import Layout from "../layouts";
 import { CollapseDrawerProvider } from "../contexts/CollapseDrawerContext";
+import "./persian-font.css";
 
 export const metadata = {
   title: "Sahand Golkar | Full-Stack Developer",

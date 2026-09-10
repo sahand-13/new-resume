@@ -1,0 +1,1 @@
+.switcher{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:20px;padding:3px;border:1px solid rgba(193,166,107,.35);border-radius:999px}.switcher button{border:0;border-radius:999px;padding:7px 8px;background:transparent;color:#9eaa9f;font-size:9px;letter-spacing:1px;cursor:pointer}.switcher button[aria-pressed="true"]{background:#c1a66b;color:#152d26;font-weight:800}
