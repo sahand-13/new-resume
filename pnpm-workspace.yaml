@@ -1,0 +1,6 @@
+packages:
+  - '.'
+
+onlyBuiltDependencies:
+  - '@tsparticles/engine'
+  - core-js
