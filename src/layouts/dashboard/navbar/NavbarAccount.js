@@ -11,7 +11,7 @@ import profile from "../../../assets/profile/profile.jpg";
 const RootStyle = styled("div")(({ theme }) => ({
   display: "block",
   alignItems: "center",
-  background: theme.palette.background.default,
+  background: "transparent",
   zIndex: 10000,
   borderRadius: Number(theme.shape.borderRadius) * 1.5,
   width: "100%",
@@ -43,7 +43,8 @@ export default function NavbarAccount({ isCollapse }) {
           width: 150,
           height: 150,
           mx: "auto",
-          border: (theme) => `4px ${theme.palette.primary.main} solid`,
+          border: "3px solid #c5a05a",
+          boxShadow: "0 0 0 5px rgba(197,160,90,.12)",
           ...(isCollapse && {
             width: 70,
             height: 70,
@@ -51,7 +52,7 @@ export default function NavbarAccount({ isCollapse }) {
         }}
       />
 
-      <Box
+      {!isCollapse && <Box
         sx={{
           transition: (theme) =>
             theme.transitions.create(
@@ -60,25 +61,18 @@ export default function NavbarAccount({ isCollapse }) {
                 duration: theme.transitions.duration.shorter,
               }
             ),
-          ...(isCollapse && {
-            ml: 3,
-            textAlign: "center",
-            writingMode: "vertical-rl",
-            textOrientation: "upright",
-          }),
-
           mt: 3,
         }}
       >
-        <Typography variant="subtitle2" noWrap>
+        <Typography variant="subtitle2" noWrap sx={{ color: "#f1f0e8", letterSpacing: "-.02em" }}>
           Sahand Golkar
         </Typography>
         {!isCollapse && (
-          <Typography variant="body2" noWrap sx={{ color: "text.secondary" }}>
+          <Typography variant="body2" noWrap sx={{ color: "#97a399", fontSize: ".72rem" }}>
             Fullstack developer
           </Typography>
         )}
-      </Box>
+      </Box>}
     </RootStyle>
   );
 }

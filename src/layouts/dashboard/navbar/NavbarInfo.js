@@ -5,7 +5,8 @@ const NavbarInfo = ({ isCollapse }) => {
     <Box
       sx={{
         overflow: "hidden",
-        bgcolor: (theme) => theme.palette.grey["900"],
+        bgcolor: "rgba(255,255,255,.045)",
+        border: "1px solid rgba(197,160,90,.12)",
         transition: (theme) =>
           theme.transitions.create(
             ["width", "writingMode", "textOrientation", "opacity"],
@@ -34,7 +35,7 @@ const NavbarInfo = ({ isCollapse }) => {
           variant="body2"
           fontSize={"10px"}
           noWrap
-          sx={{ color: "text.secondary" }}
+          sx={{ color: "#aeb7ae" }}
         >
           Iran
         </Typography>
@@ -55,9 +56,9 @@ const NavbarInfo = ({ isCollapse }) => {
           variant="body2"
           fontSize={"10px"}
           noWrap
-          sx={{ color: "text.secondary" }}
+          sx={{ color: "#aeb7ae" }}
         >
-          Tehran
+          Karaj, Iran
         </Typography>
       </Box>
       <Box
@@ -76,9 +77,9 @@ const NavbarInfo = ({ isCollapse }) => {
           variant="body2"
           fontSize={"10px"}
           noWrap
-          sx={{ color: "text.secondary" }}
+          sx={{ color: "#aeb7ae" }}
         >
-          27
+          29
         </Typography>
       </Box>
     </Box>

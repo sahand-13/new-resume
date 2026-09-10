@@ -1,0 +1,7 @@
+.progress{position:fixed;left:270px;right:0;top:0;height:3px;background:#c1a66b;transform-origin:left;z-index:60;box-shadow:0 0 14px rgba(193,166,107,.45)}
+.hero{min-height:125dvh!important;align-items:start!important;padding-top:clamp(120px,13vh,170px)!important}
+.hero :global(.js-hero-visual){position:sticky!important;top:10vh;will-change:transform}
+.hero :global(.js-hero-copy){position:sticky;top:22vh;will-change:transform,opacity}
+@media(max-width:1000px){.progress{left:0;top:64px}}
+@media(max-width:820px){.hero{min-height:auto!important;padding-top:120px!important}.hero :global(.js-hero-visual),.hero :global(.js-hero-copy){position:relative!important;top:auto}}
+@media(prefers-reduced-motion:reduce){.hero :global(.js-hero-visual),.hero :global(.js-hero-copy){will-change:auto}.progress{display:none}}
