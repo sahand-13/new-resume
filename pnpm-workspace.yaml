@@ -1,6 +1,6 @@
 packages:
   - '.'
 
-ignoredBuiltDependencies:
-  - '@tsparticles/engine'
-  - core-js
+allowBuilds:
+  '@tsparticles/engine': false
+  core-js: false
